@@ -71,6 +71,7 @@ p{
 .aside__services{
     display: flex;
     flex-direction: column;
+
     transform: translate(24px, 60px);
 }
 .aside__service{
@@ -79,15 +80,15 @@ p{
     font-size: 16px;
     padding: 0;
     margin: 0;
-    margin-bottom: 32px;
     opacity: 1;
     transition: opacity 0.3s;
 }
 .aside__li:hover{
     opacity: 0.5;
 }
-li {
+.aside__li {
     list-style-type: none;
+    margin-bottom: 32px;
 }
 ul{
     padding-left: 0;
@@ -102,7 +103,7 @@ a {
     text-decoration: none;
 
     color: black;
-    }
+}
 aside .red-button {
     background-repeat: no-repeat;
     background-size: 16px;
@@ -118,7 +119,7 @@ aside .red-button {
     font-size: 24px;
     margin-bottom: 40px;
     margin-top: 12px;
-    
+
 }
 .lang {
     font-family: ttlake;
@@ -173,6 +174,3 @@ footer {
     justify-self: flex-end;
     flex-grow: 1;
 }
-
-
-
