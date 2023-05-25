@@ -127,7 +127,7 @@ aside .red-button {
     -webkit-appearance: none;
 }
 input:checked + label{
-    color: gray;
+    opacity: 0.5;
 }
 .aside__call{
     margin: 0;
